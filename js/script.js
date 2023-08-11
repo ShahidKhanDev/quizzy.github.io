@@ -242,7 +242,7 @@ const resultContinueBtn = document.querySelector("[data-result-continue-btn]");
 
 const root = document.documentElement;
 let categoryId;
-let quizStartTime = 200; //quiz Start time in miliseconds
+let quizStartTime = 2000; //quiz Start time in miliseconds
 
 // array to store available categories
 let availabeCategoriesArr = [];
