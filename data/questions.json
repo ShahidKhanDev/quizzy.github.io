@@ -1,0 +1,604 @@
+{
+  "categories": [
+    {
+      "name": "Islamic Education",
+      "questions": [
+        {
+          "question": "What is the first pillar of Islam?",
+          "answers": [
+            { "id": 1, "text": "Testimony of faith (Shahada)" },
+            { "id": 2, "text": "Daily prayers (Salah)" },
+            { "id": 3, "text": "Pilgrimage to Mecca (Hajj)" },
+            { "id": 4, "text": "Giving to charity (Zakat)" }
+          ],
+          "correct_answer": 1
+        },
+        {
+          "question": "Who is the last prophet in Islam?",
+          "answers": [
+            { "id": 1, "text": "Prophet Adam (AS)" },
+            { "id": 2, "text": "Prophet Muhammad (SAW)" },
+            { "id": 3, "text": "Prophet Ibrahim (AS)" },
+            { "id": 4, "text": "Prophet Isa (AS)" }
+          ],
+          "correct_answer": 2
+        },
+        {
+          "question": "Which Islamic month is known as the 'Month of fasting'?",
+          "answers": [
+            { "id": 1, "text": "Shawwal" },
+            { "id": 2, "text": "Rabi' al-Awwal" },
+            { "id": 3, "text": "Ramadan" },
+            { "id": 4, "text": "Dhu al-Hijjah" }
+          ],
+          "correct_answer": 3
+        },
+        {
+          "question": "What is the holy book of Islam?",
+          "answers": [
+            { "id": 1, "text": "Quran" },
+            { "id": 2, "text": "Bible" },
+            { "id": 3, "text": "Torah" },
+            { "id": 4, "text": "Vedas" }
+          ],
+          "correct_answer": 1
+        },
+        {
+          "question": "In which city is the Prophet's Mosque located?",
+          "answers": [
+            { "id": 1, "text": "Mecca" },
+            { "id": 2, "text": "Medina" },
+            { "id": 3, "text": "Jeddah" },
+            { "id": 4, "text": "Riyadh" }
+          ],
+          "correct_answer": 2
+        },
+        {
+          "question": "What is the Night of Decree (Laylat al-Qadr) in Islam?",
+          "answers": [
+            { "id": 1, "text": "Night of fasting during Ramadan" },
+            { "id": 2, "text": "Night of pilgrimage to Mecca" },
+            { "id": 3, "text": "Night of the Prophet's birthday" },
+            { "id": 4, "text": "Blessed night of worship during Ramadan" }
+          ],
+          "correct_answer": 4
+        },
+        {
+          "question": "What is the night journey of Prophet Muhammad known as?",
+          "answers": [
+            { "id": 1, "text": "Isra" },
+            { "id": 2, "text": "Miraj" },
+            { "id": 3, "text": "Hijra" },
+            { "id": 4, "text": "Qiyamah" }
+          ],
+          "correct_answer": 2
+        },
+        {
+          "question": "In Islamic tradition, what is the name of the angel who conveyed revelations to Prophet Muhammad?",
+          "answers": [
+            { "id": 1, "text": "Jibrail (ASW)" },
+            { "id": 2, "text": "Mikaeel (ASW)" },
+            { "id": 3, "text": "Israfil (ASW)" },
+            { "id": 4, "text": "Izraeel (ASW)" }
+          ],
+          "correct_answer": 1
+        },
+        {
+          "question": "How old was Muhammad (PBUH) when his mother passed away?",
+          "answers": [
+            { "id": 1, "text": "10" },
+            { "id": 2, "text": "6" },
+            { "id": 3, "text": "7" },
+            { "id": 4, "text": "8" }
+          ],
+          "correct_answer": 2
+        },
+        {
+          "question": "Which direction do Muslims face while performing their daily prayers (Salat)?",
+          "answers": [
+            { "id": 1, "text": "North" },
+            { "id": 2, "text": "East" },
+            { "id": 3, "text": "West" },
+            { "id": 4, "text": "Towards the Kaaba in Mecca" }
+          ],
+          "correct_answer": 4
+        }
+      ]
+    },
+    {
+      "name": "English",
+      "questions": [
+        {
+          "question": "What is the plural form of the word 'child'?",
+          "answers": [
+            { "id": 1, "text": "childs" },
+            { "id": 2, "text": "childes" },
+            { "id": 3, "text": "children" },
+            { "id": 4, "text": "child's" }
+          ],
+          "correct_answer": 3
+        },
+        {
+          "question": "Which word is a synonym for 'happy'?",
+          "answers": [
+            { "id": 1, "text": "sad" },
+            { "id": 2, "text": "angry" },
+            { "id": 3, "text": "joyful" },
+            { "id": 4, "text": "tired" }
+          ],
+          "correct_answer": 3
+        },
+        {
+          "question": "What is the past tense of the verb 'go'?",
+          "answers": [
+            { "id": 1, "text": "goes" },
+            { "id": 2, "text": "gone" },
+            { "id": 3, "text": "went" },
+            { "id": 4, "text": "going" }
+          ],
+          "correct_answer": 3
+        },
+        {
+          "question": "Which word is spelled correctly?",
+          "answers": [
+            { "id": 1, "text": "Experiance" },
+            { "id": 2, "text": "Experiancee" },
+            { "id": 3, "text": "Experience" },
+            { "id": 4, "text": "Expeerience" }
+          ],
+          "correct_answer": 3
+        },
+        {
+          "question": "What is the opposite of the word 'dark'?",
+          "answers": [
+            { "id": 1, "text": "Bright" },
+            { "id": 2, "text": "Heavy" },
+            { "id": 3, "text": "Small" },
+            { "id": 4, "text": "Cold" }
+          ],
+          "correct_answer": 1
+        },
+        {
+          "question": "Which word is an adverb?",
+          "answers": [
+            { "id": 1, "text": "Blue" },
+            { "id": 2, "text": "Cat" },
+            { "id": 3, "text": "Quickly" },
+            { "id": 4, "text": "Happy" }
+          ],
+          "correct_answer": 3
+        },
+        {
+          "question": "What is the correct spelling of the opposite of 'lose'?",
+          "answers": [
+            { "id": 1, "text": "Loose" },
+            { "id": 2, "text": "Losee" },
+            { "id": 3, "text": "Loseing" },
+            { "id": 4, "text": "Win" }
+          ],
+          "correct_answer": 4
+        },
+        {
+          "question": "Which sentence uses the present simple tense?",
+          "answers": [
+            { "id": 1, "text": "She will be going to the store later." },
+            { "id": 2, "text": "I am reading a book right now." },
+            { "id": 3, "text": "He eats breakfast every morning." },
+            { "id": 4, "text": "They had finished their homework yesterday." }
+          ],
+          "correct_answer": 3
+        },
+        {
+          "question": "What is the past participle form of the verb 'swim'?",
+          "answers": [
+            { "id": 1, "text": "Swimming" },
+            { "id": 2, "text": "Swam" },
+            { "id": 3, "text": "Swum" },
+            { "id": 4, "text": "Swimmed" }
+          ],
+          "correct_answer": 3
+        },
+        {
+          "question": "Which sentence uses the correct past continuous tense?",
+          "answers": [
+            { "id": 1, "text": "I will visit my grandparents tomorrow." },
+            { "id": 2, "text": "She is cooking dinner right now." },
+            { "id": 3, "text": "They have finished the project last week." },
+            { "id": 4, "text": "He was studying when the phone rang." }
+          ],
+          "correct_answer": 4
+        }
+      ]
+    },
+    {
+      "name": "Math",
+      "questions": [
+        {
+          "question": "What is 7 * 4",
+          "answers": [
+            { "id": 1, "text": "23" },
+            { "id": 2, "text": "28" },
+            { "id": 3, "text": "25" },
+            { "id": 4, "text": "20" }
+          ],
+          "correct_answer": 2
+        },
+        {
+          "question": "What is 12 divided by 3?",
+          "answers": [
+            { "id": 1, "text": "4" },
+            { "id": 2, "text": "6" },
+            { "id": 3, "text": "3" },
+            { "id": 4, "text": "9" }
+          ],
+          "correct_answer": 1
+        },
+        {
+          "question": "Simplify: 5 + 2 * 3",
+          "answers": [
+            { "id": 1, "text": "15" },
+            { "id": 2, "text": "9" },
+            { "id": 3, "text": "11" },
+            { "id": 4, "text": "8" }
+          ],
+          "correct_answer": 3
+        },
+        {
+          "question": "What is the square root of 64?",
+          "answers": [
+            { "id": 1, "text": "4" },
+            { "id": 2, "text": "6" },
+            { "id": 3, "text": "10" },
+            { "id": 4, "text": "8" }
+          ],
+          "correct_answer": 4
+        },
+        {
+          "question": "If x = 5 and y = 3, what is the value of 2x + 3y?",
+          "answers": [
+            { "id": 1, "text": "13" },
+            { "id": 2, "text": "16" },
+            { "id": 3, "text": "19" },
+            { "id": 4, "text": "11" }
+          ],
+          "correct_answer": 3
+        },
+        {
+          "question": "If you have 10 apples and you give away 3, how many apples do you have left?",
+          "answers": [
+            { "id": 1, "text": "7" },
+            { "id": 2, "text": "13" },
+            { "id": 3, "text": "3" },
+            { "id": 4, "text": "10" }
+          ],
+          "correct_answer": 1
+        },
+        {
+          "question": "What is 6 times 4?",
+          "answers": [
+            { "id": 1, "text": "24" },
+            { "id": 2, "text": "10" },
+            { "id": 3, "text": "16" },
+            { "id": 4, "text": "30" }
+          ],
+          "correct_answer": 1
+        }
+      ]
+    },
+    {
+      "name": "Chemistry",
+      "questions": [
+        {
+          "question": "What is the chemical symbol for gold?",
+          "answers": [
+            { "id": 1, "text": "Ag" },
+            { "id": 2, "text": "Au" },
+            { "id": 3, "text": "Ag" },
+            { "id": 4, "text": "Fe" }
+          ],
+          "correct_answer": 2
+        },
+        {
+          "question": "Which gas is known as the 'laughing gas'?",
+          "answers": [
+            { "id": 1, "text": "Carbon Dioxide" },
+            { "id": 2, "text": "Methane" },
+            { "id": 3, "text": "Nitrous Oxide" },
+            { "id": 4, "text": "Oxygen" }
+          ],
+          "correct_answer": 3
+        },
+        {
+          "question": "What is the chemical formula for water?",
+          "answers": [
+            { "id": 1, "text": "H2O" },
+            { "id": 2, "text": "CO2" },
+            { "id": 3, "text": "O2" },
+            { "id": 4, "text": "NH3" }
+          ],
+          "correct_answer": 1
+        },
+        {
+          "question": "What gas do plants use during photosynthesis?",
+          "answers": [
+            { "id": 1, "text": "Carbon Monoxide" },
+            { "id": 2, "text": "Oxygen" },
+            { "id": 3, "text": "Nitrogen" },
+            { "id": 4, "text": "Carbon Dioxide" }
+          ],
+          "correct_answer": 4
+        },
+        {
+          "question": "What is the chemical symbol for helium?",
+          "answers": [
+            { "id": 1, "text": "He" },
+            { "id": 2, "text": "H" },
+            { "id": 3, "text": "Ho" },
+            { "id": 4, "text": "Hy" }
+          ],
+          "correct_answer": 1
+        },
+        {
+          "question": "What is the chemical symbol for oxygen?",
+          "answers": [
+            { "id": 1, "text": "O2" },
+            { "id": 2, "text": "O" },
+            { "id": 3, "text": "C" },
+            { "id": 4, "text": "H2O" }
+          ],
+          "correct_answer": 2
+        },
+        {
+          "question": "What is the chemical formula for table salt?",
+          "answers": [
+            { "id": 1, "text": "NaCl" },
+            { "id": 2, "text": "H2O" },
+            { "id": 3, "text": "CO2" },
+            { "id": 4, "text": "C6H12O6" }
+          ],
+          "correct_answer": 1
+        },
+        {
+          "question": "What is the chemical symbol for hydrogen?",
+          "answers": [
+            { "id": 1, "text": "H2" },
+            { "id": 2, "text": "H" },
+            { "id": 3, "text": "He" },
+            { "id": 4, "text": "O2" }
+          ],
+          "correct_answer": 2
+        },
+        {
+          "question": "What is the atomic number of carbon?",
+          "answers": [
+            { "id": 1, "text": "12" },
+            { "id": 2, "text": "6" },
+            { "id": 3, "text": "8" },
+            { "id": 4, "text": "14" }
+          ],
+          "correct_answer": 2
+        },
+        {
+          "question": "What is the chemical symbol for sodium?",
+          "answers": [
+            { "id": 1, "text": "Sa" },
+            { "id": 2, "text": "So" },
+            { "id": 3, "text": "Na" },
+            { "id": 4, "text": "Se" }
+          ],
+          "correct_answer": 3
+        }
+      ]
+    },
+    {
+      "name": "Physics",
+      "questions": [
+        {
+          "question": "What is the SI unit of length?",
+          "answers": [
+            { "id": 1, "text": "Kilogram" },
+            { "id": 2, "text": "Second" },
+            { "id": 3, "text": "Meter" },
+            { "id": 4, "text": "Watt" }
+          ],
+          "correct_answer": 3
+        },
+        {
+          "question": "What is the formula for calculating force (F)?",
+          "answers": [
+            { "id": 1, "text": "F = m + a" },
+            { "id": 2, "text": "F = m / a" },
+            { "id": 3, "text": "F = m * a" },
+            { "id": 4, "text": "F = m - a" }
+          ],
+          "correct_answer": 3
+        },
+        {
+          "question": "What is the unit of electric current?",
+          "answers": [
+            { "id": 1, "text": "Volt" },
+            { "id": 2, "text": "Ampere" },
+            { "id": 3, "text": "Ohm" },
+            { "id": 4, "text": "Watt" }
+          ],
+          "correct_answer": 2
+        },
+        {
+          "question": "What is the unit of work and energy?",
+          "answers": [
+            { "id": 1, "text": "Watt" },
+            { "id": 2, "text": "Joule" },
+            { "id": 3, "text": "Ampere" },
+            { "id": 4, "text": "Volt" }
+          ],
+          "correct_answer": 2
+        },
+        {
+          "question": "What is the SI unit of time?",
+          "answers": [
+            { "id": 1, "text": "Watt" },
+            { "id": 2, "text": "Volt" },
+            { "id": 3, "text": "Second" },
+            { "id": 4, "text": "Ohm" }
+          ],
+          "correct_answer": 3
+        },
+        {
+          "question": "Which of the following is an example of a longitudinal wave?",
+          "answers": [
+            { "id": 1, "text": "Radio wave" },
+            { "id": 2, "text": "Sound wave" },
+            { "id": 3, "text": "Light wave" },
+            { "id": 4, "text": "Water wave" }
+          ],
+          "correct_answer": 2
+        },
+        {
+          "question": "Charles's law is based on",
+          "answers": [
+            { "id": 1, "text": "Solid" },
+            { "id": 2, "text": "Liquid" },
+            { "id": 3, "text": "Gas" },
+            { "id": 4, "text": "None of the above" }
+          ],
+          "correct_answer": 3
+        },
+        {
+          "question": "An atom with more neutrons than protons is called",
+          "answers": [
+            { "id": 1, "text": "Compound" },
+            { "id": 2, "text": "Isotope" },
+            { "id": 3, "text": "Element" },
+            { "id": 4, "text": "None of the above" }
+          ],
+          "correct_answer": 2
+        },
+        {
+          "question": "The word 'Physics' comes from the Greek word",
+          "answers": [
+            { "id": 1, "text": "Phiji" },
+            { "id": 2, "text": "Fusis" },
+            { "id": 3, "text": "Phusik" },
+            { "id": 4, "text": "Pheu" }
+          ],
+          "correct_answer": 2
+        },
+        {
+          "question": "Total number of colors exists in sunlight",
+          "answers": [
+            { "id": 1, "text": "5" },
+            { "id": 2, "text": "10" },
+            { "id": 3, "text": "9" },
+            { "id": 4, "text": "7" }
+          ],
+          "correct_answer": 4
+        }
+      ]
+    },
+    {
+      "name": "Biology",
+      "questions": [
+        {
+          "question": "What is the basic unit of life?",
+          "answers": [
+            { "id": 1, "text": "Atom" },
+            { "id": 2, "text": "Molecule" },
+            { "id": 3, "text": "Cell" },
+            { "id": 4, "text": "Organism" }
+          ],
+          "correct_answer": 3
+        },
+        {
+          "question": "Which gas do plants use for photosynthesis?",
+          "answers": [
+            { "id": 1, "text": "Oxygen" },
+            { "id": 2, "text": "Carbon Dioxide" },
+            { "id": 3, "text": "Nitrogen" },
+            { "id": 4, "text": "Hydrogen" }
+          ],
+          "correct_answer": 2
+        },
+        {
+          "question": "What is the largest organ in the human body?",
+          "answers": [
+            { "id": 1, "text": "Heart" },
+            { "id": 2, "text": "Brain" },
+            { "id": 3, "text": "Liver" },
+            { "id": 4, "text": "Skin" }
+          ],
+          "correct_answer": 4
+        },
+        {
+          "question": "Which process allows plants to convert sunlight into energy and produce glucose?",
+          "answers": [
+            { "id": 1, "text": "Respiration" },
+            { "id": 2, "text": "Digestion" },
+            { "id": 3, "text": "Photosynthesis" },
+            { "id": 4, "text": "Excretion" }
+          ],
+          "correct_answer": 3
+        },
+        {
+          "question": "What is the primary function of red blood cells?",
+          "answers": [
+            { "id": 1, "text": "Carrying oxygen" },
+            { "id": 2, "text": "Digesting food" },
+            { "id": 3, "text": "Producing hormones" },
+            { "id": 4, "text": "Fighting infections" }
+          ],
+          "correct_answer": 1
+        },
+        {
+          "question": "Who is known as Father of Modern Genetics",
+          "answers": [
+            { "id": 1, "text": "Charles Darwin" },
+            { "id": 2, "text": "Louis Pasteur" },
+            { "id": 3, "text": "Gregor Mendel" },
+            { "id": 4, "text": "Jean Baptiste Lamarck" }
+          ],
+          "correct_answer": 3
+        },
+        {
+          "question": "Which one is the largest gland of human body",
+          "answers": [
+            { "id": 1, "text": "Liver" },
+            { "id": 2, "text": "Thyroid" },
+            { "id": 3, "text": "Pituitary" },
+            { "id": 4, "text": "Intestine" }
+          ],
+          "correct_answer": 1
+        },
+        {
+          "question": "Which organ in the human body is responsible for pumping blood?",
+          "answers": [
+            { "id": 1, "text": "Lungs" },
+            { "id": 2, "text": "Brain" },
+            { "id": 3, "text": "Heart" },
+            { "id": 4, "text": "Stomach" }
+          ],
+          "correct_answer": 3
+        },
+        {
+          "question": "Which sense is associated with the taste of food?",
+          "answers": [
+            { "id": 1, "text": "Sight" },
+            { "id": 2, "text": "Hearing" },
+            { "id": 3, "text": "Smell" },
+            { "id": 4, "text": "Taste" }
+          ],
+          "correct_answer": 4
+        },
+        {
+          "question": "The main function of heamoglobin is",
+          "answers": [
+            { "id": 1, "text": "Carries Oxygen" },
+            { "id": 2, "text": "Control Blood Pressure" },
+            { "id": 3, "text": "Produce Hormones" },
+            { "id": 4, "text": "None of the above" }
+          ],
+          "correct_answer": 1
+        }
+      ]
+    }
+  ]
+}

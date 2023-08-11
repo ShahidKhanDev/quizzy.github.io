@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Duolingo</title>
+    <!-- google icons -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body data-theme="light">
+    <!-- loading screen -->
+    <div class="loading__screen" data-loading-screen>
+      <div class="loading__screen-main">
+        <div class="top">
+          <img
+            src="assets/images/logo.png"
+            alt="Quizzy Logo"
+            class="logo__img"
+          />
+          <div class="logo__text">Quiz<span class="has-clr">zy</span></div>
+        </div>
+        <div class="slogan__text">Unleash Your Inner Quiz Whiz!</div>
+        <span class="loader"></span>
+      </div>
+      <div class="developer">
+        <div class="copyright">
+          &copy; <span class="copyright__year"></span> Made with
+          <span class="heart-fill">❤</span> by
+          <span class="developer__name">Shahid.</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- settings -->
+    <div class="settings__btn" data-settings-btn>
+      <span class="material-icons-outlined">settings</span>
+    </div>
+
+    <div class="settings__popup popup" data-settings-popup>
+      <div class="close__settings-popup" data-settings-close-btn>
+        <span class="material-icons-outlined">close</span>
+      </div>
+      <div class="container">
+        <div class="col">
+          <span class="settings__sub">Difficulty Level</span>
+          <ul class="settings__list" data-settings-list>
+            <li
+              class="settings__list-item"
+              data-level="easy"
+              data-level-toggler
+            >
+              Easy
+            </li>
+            <li
+              class="settings__list-item"
+              data-level="medium"
+              data-level-toggler
+            >
+              Medium
+            </li>
+            <li
+              class="settings__list-item"
+              data-level="hard"
+              data-level-toggler
+            >
+              Hard
+            </li>
+            <div class="line"></div>
+          </ul>
+        </div>
+
+        <div class="col">
+          <span class="settings__sub">Number Of Questions</span><br />
+          <input
+            type="number"
+            min="1"
+            max="30"
+            value="10"
+            data-input-total-questions
+          />
+          <span class="total__questions-info"
+            >*max questions:
+            <span class="total__questions-num" data-max-questions></span
+          ></span>
+        </div>
+
+        <div class="col">
+          <span class="settings__sub">Sounds</span>
+          <ul class="settings__list settings__list-sound" data-settings-list>
+            <li class="settings__list-item" data-sound="on" data-sound-toggler>
+              <span class="material-icons-outlined icon">volume_up</span>
+              <span class="text">On</span>
+            </li>
+            <li class="settings__list-item" data-sound="off" data-sound-toggler>
+              <span class="material-icons-outlined icon">volume_off</span>
+              <span class="text">Off</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col">
+          <span class="settings__sub">Theme</span>
+          <ul
+            class="settings__list settings__list-theme"
+            data-settings-theme-list
+          >
+            <li
+              class="settings__list-item"
+              data-theme-value="light"
+              data-theme-toggler
+            >
+              <span class="material-icons-outlined icon">light_mode</span>
+              <span class="text">Light</span>
+            </li>
+            <li
+              class="settings__list-item theme-dark"
+              data-theme-value="dark"
+              data-theme-toggler
+            >
+              <span class="material-icons-outlined icon">dark_mode</span>
+              <span class="text">Dark</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <button class="save__settings-btn btn-primary" aria-checked="true">
+        Save Settings
+      </button>
+    </div>
+
+    <!-- wrapper -->
+    <div class="wrapper" data-wrapper>
+      <div class="progressbar__container fixed" data-progressbar-container>
+        <div class="questions__progressbar">
+          <button class="close__quiz-btn" data-quiz-close-btn>
+            <span class="material-icons-outlined icon">close</span>
+          </button>
+          <div class="progressbar">
+            <div class="progressbar__full" data-progressbar></div>
+          </div>
+          <div class="life__left">
+            <span class="material-icons-outlined heart-icon">favorite</span>
+            <span class="life__left-num" data-life-text></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- category starts -->
+      <div class="category__card-container" data-category-container>
+        <h1 class="title">Select a category to start the Quiz!</h1>
+        <div class="category__card-main" data-category-main>
+          <ul class="category__card-list" data-category-card-list>
+            <!-- <li
+              class="category__card-item card-clickable"
+              aria-checked="false"
+              data-category-card-item
+            >
+              <div class="meta">
+                <img src="assets/images/yt.png" />
+                <span class="card__item-text">YouTube</span>
+              </div>
+            </li>
+
+            <li
+              class="category__card-item card-clickable"
+              aria-checked="false"
+              data-category-card-item
+            >
+              <div class="meta">
+                <img src="assets/images/google.png" />
+                <span class="card__item-text">Google</span>
+              </div>
+            </li>
+
+            <li
+              class="category__card-item card-clickable"
+              aria-checked="false"
+              data-category-card-item
+            >
+              <div class="meta">
+                <img src="assets/images/tiktok.png" />
+                <span class="card__item-text">TikTok</span>
+              </div>
+            </li>
+
+            <li
+              class="category__card-item card-clickable"
+              aria-checked="false"
+              data-category-card-item
+            >
+              <div class="meta">
+                <img src="assets/images/fb.png" />
+                <span class="card__item-text">Facebook</span>
+              </div>
+            </li>
+
+            <li
+              class="category__card-item card-clickable"
+              aria-checked="false"
+              data-category-card-item
+            >
+              <div class="meta">
+                <img src="assets/images/tv.png" />
+                <span class="card__item-text">TV</span>
+              </div>
+            </li>
+
+            <li
+              class="category__card-item card-clickable"
+              aria-checked="false"
+              data-category-card-item
+            >
+              <div class="meta">
+                <img src="assets/images/newspaper.png" />
+                <span class="card__item-text">News/article/blog</span>
+              </div>
+            </li>
+
+            <li
+              class="category__card-item card-clickable"
+              aria-checked="false"
+              data-category-card-item
+            >
+              <div class="meta">
+                <img src="assets/images/friends.png" />
+                <span class="card__item-text">Friends/Family</span>
+              </div>
+            </li>
+
+            <li
+              class="category__card-item card-clickable"
+              aria-checked="false"
+              data-category-card-item
+            >
+              <div class="meta">
+                <img src="assets/images/more.png" />
+                <span class="card__item-text">Other</span>
+              </div>
+            </li> -->
+          </ul>
+        </div>
+
+        <button
+          class="start__quiz-btn btn-primary"
+          aria-checked="false"
+          disabled
+          data-start-quiz-btn
+        >
+          <span>Start Quiz</span>
+          <div class="loading-dots">
+            <div class="dot" style="--duration: 0.3s"></div>
+            <div class="dot" style="--duration: 0.5s"></div>
+            <div class="dot" style="--duration: 0.7s"></div>
+          </div>
+        </button>
+      </div>
+
+      <!-- quiz starts -->
+      <div class="quiz__container" data-quiz-container>
+        <div class="quiz__main" data-quiz-main>
+          <div class="question__counter">
+            <span class="current__question-num">1/</span
+            ><span class="total__questions">6</span>
+          </div>
+          <div
+            class="question__category-text"
+            data-question-category-text
+          ></div>
+          <div class="question__title" data-question-title></div>
+
+          <ul class="question__list" data-question-list>
+            <!-- <li
+              class="question__item card-clickable"
+              aria-checked="false"
+              data-category-card-item
+            >
+              <span class="question__num">01</span>
+              <span class="question__text">Kabul</span>
+            </li>
+
+            <li
+              class="question__item card-clickable"
+              aria-checked="false"
+              data-category-card-item
+            >
+              <span class="question__num">02</span>
+              <span class="question__text">Kabul</span>
+            </li>
+
+            <li
+              class="question__item card-clickable"
+              aria-checked="false"
+              data-category-card-item
+            >
+              <span class="question__num">03</span>
+              <span class="question__text">Kabul</span>
+            </li>
+
+            <li
+              class="question__item card-clickable"
+              aria-checked="false"
+              data-category-card-item
+            >
+              <span class="question__num">04</span>
+              <span class="question__text">Kabul</span>
+            </li> -->
+          </ul>
+        </div>
+
+        <div class="question__btn-container">
+          <button
+            class="question__skip-btn btn-secondary"
+            aria-checked="true"
+            data-question-skip-btn
+          >
+            Skip
+          </button>
+          <button class="question__next-btn btn-primary" aria-checked="true">
+            Next
+          </button>
+        </div>
+
+        <div class="quiz__message-container" data-quiz-message-container>
+          <div class="quiz__message">
+            <div class="left">
+              <span class="material-icons-outlined icon" data-quiz-message-icon
+                >done</span
+              >
+              <div class="content">
+                <span class="message__text" data-quiz-message-text
+                  >Nicely Done!</span
+                >
+                <p class="correct__ans" data-correct-answer></p>
+              </div>
+            </div>
+
+            <button
+              class="question__continue-btn btn-primary"
+              aria-checked="true"
+              data-quiz-question-continue-btn
+            >
+              Continue
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- quit game -->
+      <div class="quit__quiz-popup popup" data-quit-quiz-popup>
+        <div class="container">
+          <img src="assets/images/sad.gif" />
+          <div class="popup__title">Are you sure you want to Quit?</div>
+          <div class="btn__container">
+            <button
+              class="btn-secondary"
+              aria-checked="true"
+              data-quit-quiz-no-btn
+            >
+              No
+            </button>
+            <button
+              class="quit__quiz-yesBtn btn-primary"
+              aria-checked="true"
+              data-quit-quiz-yes-btn
+            >
+              <span>Yes</span>
+              <div class="loading-dots">
+                <div class="dot" style="--duration: 0.3s"></div>
+                <div class="dot" style="--duration: 0.5s"></div>
+                <div class="dot" style="--duration: 0.7s"></div>
+              </div>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- result -->
+      <div class="result__container">
+        <div class="result__main">
+          <img src="assets/images/completed.gif" />
+          <img src="assets/images/sad.png" class="sad" />
+          <div class="quiz__complete-text">Quiz Completed!</div>
+
+          <div class="result__box">
+            <div class="box">
+              <span class="title title-1">Total</span>
+              <div class="content">
+                <span class="material-icons icon">bolt</span>
+                <!-- <img src="assets/images/list.gif" /> -->
+                <span class="total__questions-num" data-total-questions
+                  >10</span
+                >
+              </div>
+            </div>
+
+            <div class="box">
+              <span class="title">Correct</span>
+              <div class="content">
+                <span class="material-icons icon">done_all</span>
+                <!-- <img src="assets/images/correct.gif" /> -->
+                <span class="correct__answers-num" data-correct-answers-num
+                  >6</span
+                >
+              </div>
+            </div>
+
+            <div class="box">
+              <span class="title">Wrong</span>
+              <div class="content">
+                <span class="material-icons icon">close</span>
+                <!-- <img src="assets/images/wrong.gif" id="lg" /> -->
+                <span class="wrong__answers-num" data-wrong-answers-num>4</span>
+              </div>
+            </div>
+          </div>
+          <div class="result__btn-container">
+            <button
+              class="result__review-btn btn-secondary"
+              aria-checked="true"
+            >
+              Review
+            </button>
+
+            <button
+              class="result__continue-btn btn-primary"
+              aria-checked="true"
+              data-result-continue-btn
+            >
+              <span>Continue</span>
+              <div class="loading-dots">
+                <div class="dot" style="--duration: 0.3s"></div>
+                <div class="dot" style="--duration: 0.5s"></div>
+                <div class="dot" style="--duration: 0.7s"></div>
+              </div>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- hearts popup -->
+    <div class="hearts__popup popup" data-hearts-popup>
+      <div class="container">
+        <ul class="heart__list">
+          <li class="heart__item">
+            <span class="material-icons-outlined heart-icon">favorite</span>
+          </li>
+          <li class="heart__item">
+            <span class="material-icons-outlined heart-icon">favorite</span>
+          </li>
+          <li class="heart__item">
+            <span class="material-icons-outlined heart-icon">favorite</span>
+          </li>
+          <li class="heart__item">
+            <span class="material-icons-outlined heart-icon">favorite</span>
+          </li>
+          <li class="heart__item">
+            <span class="material-icons-outlined heart-icon">favorite</span>
+          </li>
+        </ul>
+        <div class="popup__title">Each mistake costs 1 heart!</div>
+        <div class="popup__desc">
+          Stay sharp and focused to keep you hearts. You <br />
+          got this!
+        </div>
+        <button class="keep__going-btn btn-primary" data-keep-go-btn>
+          Keep Going
+        </button>
+      </div>
+
+      <!-- no more hearts -->
+      <div class="no__hearts">
+        <img src="/assets/images/no_heart.gif" />
+        <div class="popup__title">You ran out of hearts!</div>
+        <div class="popup__desc">
+          Mistakes are our best teachers. Have a free refill on <br />
+          us to keep going!
+        </div>
+
+        <button class="refill__hearts-btn btn-primary" data-refill-hearts-btn>
+          Refill For Free
+        </button>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="copyright">
+          &copy; <span class="copyright__year"></span> Made with
+          <span class="heart-fill">❤</span> by
+          <span class="developer__name">Shahid.</span>
+        </div>
+      </div>
+    </footer>
+
+    <!-- overlay -->
+    <div class="overlay" data-overlay></div>
+    <script src="js/categories.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
